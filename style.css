@@ -1,0 +1,47 @@
+* {
+  border:2px solid green;
+  }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 2px;
+  margin-top: 40px;
+  margin-right: 75px;
+  }
+
+h1 {
+  text-align: center;
+  margin-left: 225px;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+   }
+
+article {
+     float:right;
+     margin-right: 240px;
+     font-size: 20px;
+     font-weight: bolder;
+   }
+
+p {
+  float: right;
+}
+
+button:hover {
+  button:hover {
+   this is the state of the button after you hover over it
+}
+}
+
+{
+  text-decoration: none;
+  color: #888;
+}
+
+{
+  clear: both;
+  background: #444;
+  height: 150px;
+}
