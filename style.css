@@ -1,47 +1,101 @@
-* {
-  border:2px solid green;
-  }
-
-li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 2px;
-  margin-top: 40px;
-  margin-right: 75px;
-  }
-
-h1 {
-  text-align: center;
-  margin-left: 225px;
-  font-weight: bolder;
-  font-size: 30px;
-  padding: 10px;
-   }
-
-article {
-     float:right;
-     margin-right: 240px;
-     font-size: 20px;
-     font-weight: bolder;
-   }
-
-p {
-  float: right;
+/* global styles */
+body {
+  font-family: arial;
 }
 
-button:hover {
-  button:hover {
-   this is the state of the button after you hover over it
-}
-}
-
-{
+a {
   text-decoration: none;
   color: #888;
 }
 
-{
+#list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background: darkgrey;
+  height: 100px;
+}
+
+.topnav {
+  list-style-type: none;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  float: left;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+ a {
+  /*display: inline-block;*/
+  /*text-decoration: none;*/
+  list-style-type: none;
+  display:none;
+  margin-top: 40px;
+  margin-right: 75px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.three_pics li {
+  float: left;
+  margin: 30px 30px 30px 0;
+}
+
+.three_pics li:last-child {
+  margin-right: 0px;
+}
+
+.left_picture img {
+  float: left;
+  width: 50%;
+}
+
+.rttext {
+  width: calc(50% - 30px);
+  float: left;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.rttext p {
+  height: 320px;
+  overflow: auto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: 300ms all;
+  cursor: pointer;
+}
+
+button:hover {
+  background: green;
+}
+
+footer {
   clear: both;
-  background: #444;
+  background: darkgrey;
   height: 150px;
 }
